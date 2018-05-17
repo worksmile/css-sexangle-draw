@@ -6,17 +6,17 @@ css绘画六边形
     width: 346.3px;
     background-color: red;
     position: relative;
-}   
-.wrapper:before{    
-    content: '';    
+}   
+#### .wrapper:before{    
+    content: '';   
     display: block; 
     position: absolute; 
     top: -100px;    
     border-left:173.2px solid transparent;  
     border-right:173.2px solid transparent; 
     border-bottom: 100px solid red; 
-}    
-.wrapper:after{ 
+}    
+#### .wrapper:after{ 
     content: '';    
     display: block; 
     position: absolute; 
